@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/recycler_row_currency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="currency"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/recycler_row_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="price"
+        android:textColor="@color/white"
+        android:textSize="29sp"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"/>
+
+</LinearLayout>
